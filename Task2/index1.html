@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Scaffold</title>
+    <style>
+    #title::after {
+        content: "";
+        display: inline-block;
+        width: 50px;
+        height: 2px;
+        background-color: #009cea;
+        margin: 10px auto;
+        position: relative;
+        bottom: -17px;
+        right: 61px;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -76,5 +89,179 @@
             </div>
             </div>
         </section>
+        <section id="about" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+            <div class="about-image">
+                <img height="300" width="300" src="https://preview.themewagon.com/scaffold/assets/img/working-1.jpg" alt="About Image">
+            </div>
+            <div class="about-info" style="margin-left: 20px;">
+                <div class="about-title1">
+                    <h2>Who We Are</h2>
+                </div>
+                <div class="about-title2">
+                    <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
+                </div>
+                <div class="about-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                </div>
+                <div class="about-links">
+                    <a style="text-decoration: none;color: white;background-color: #009cea;padding:1px 5px;border-radius: 6px;font-weight: bold;" href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="feature-tabmenu-header">
+                <ul style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+                <li data-id="1" style="margin: 0 10px; cursor: pointer;">Modisit</li>
+                <li data-id="2" style="margin: 0 10px; cursor: pointer;">Praesenti</li>
+                <li data-id="3" style="margin: 0 10px; cursor: pointer;">Explica</li>
+                <li data-id="4" style="margin: 0 10px; cursor: pointer;">Nostrum</li>
+            </ul>
+            </div>
+            <div class="feature-tabmenu-content">
+                <div data-id="1" class="feature-item" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+                    <div class="feature-item-info">
+                        <div class="feature-item-title">
+                            <h2>Voluptatem dignissimos provident</h2>
+                        </div>
+                        <div class="feature-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                        <div class="feature-item-desc-list">
+                            <ul>
+                                <li><i class="fa-solid fa-check-double"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Consectetur adipisicing elit.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Quisquam, quod.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-item-image">
+                        <img height="300" width="300" src="https://preview.themewagon.com/scaffold/assets/img/working-1.jpg" alt="Feature Image">
+                    </div>
+                </div>
+                <div data-id="2" class="feature-item" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+                    <div class="feature-item-info">
+                        <div class="feature-item-title">
+                            <h2>Voluptatem dignissimos provident</h2>
+                        </div>
+                        <div class="feature-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                        <div class="feature-item-desc-list">
+                            <ul>
+                                <li><i class="fa-solid fa-check-double"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Consectetur adipisicing elit.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Quisquam, quod.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-item-image">
+                        <img height="300" width="300" src="https://preview.themewagon.com/scaffold/assets/img/working-1.jpg" alt="Feature Image">
+                    </div>
+                </div>
+                <div data-id="3" class="feature-item" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+                    <div class="feature-item-info">
+                        <div class="feature-item-title">
+                            <h2>Voluptatem dignissimos provident</h2>
+                        </div>
+                        <div class="feature-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                        <div class="feature-item-desc-list">
+                            <ul>
+                                <li><i class="fa-solid fa-check-double"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Consectetur adipisicing elit.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Quisquam, quod.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-item-image">
+                        <img height="300" width="300" src="https://preview.themewagon.com/scaffold/assets/img/working-1.jpg" alt="Feature Image">
+                    </div>
+                </div>
+                <div data-id="4" class="feature-item" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+                    <div class="feature-item-info">
+                        <div class="feature-item-title">
+                            <h2>Voluptatem dignissimos provident</h2>
+                        </div>
+                        <div class="feature-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                        <div class="feature-item-desc-list">
+                            <ul>
+                                <li><i class="fa-solid fa-check-double"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Consectetur adipisicing elit.</li>
+                                <li><i class="fa-solid fa-check-double"></i>Quisquam, quod.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-item-image">
+                        <img height="300" width="300" src="https://preview.themewagon.com/scaffold/assets/img/working-1.jpg" alt="Feature Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="section-header" style="text-align: center; padding: 50px 0;">
+                <div class="section-title">
+                    <h2 id="title">Services</h2>
+                </div>
+                <div class="section-desc">
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>    
+                </div>
+            </div>
+            <div class="section-body">
+                <div class="services-items" style="display: flex; justify-content: space-between; align-items: center; padding: 50px 0;">
+                    <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Service 1</h3>
+                        </div>
+                        <div class="service-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                         
+                </div>
+                <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Service 1</h3>
+                        </div>
+                        <div class="service-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                         
+                </div>
+                <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Service 1</h3>
+                        </div>
+                        <div class="service-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                         
+                </div>
+                <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Service 1</h3>
+                        </div>
+                        <div class="service-item-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        </div>
+                         
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
